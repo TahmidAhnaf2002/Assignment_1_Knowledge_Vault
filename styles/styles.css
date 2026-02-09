@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body{
+    font-family: "Open Sans", sans-serif;
+}
+
+.container{
+    max-width: 1600px;
+    width: 100%;
+    font-family: "Open Sans", sans-serif;
+    background-color: #FFFFFF;
+}
+
+nav{
+    max-width: 1600px;
+    display: flex;
+    padding: 0 100px;
+    justify-content: space-between;
+    align-items: center;
+    
+    margin-top: 16px;
+}
+
+nav .menu{
+    display: flex;
+    list-style: none;
+    gap: 32px;
+}
+.menu a{
+    color:#000000;
+    text-decoration: none;
+    font-size: 16;
+
+    
+}
+nav .navigate-button button{
+    background-color: #30B868;
+    color:#FFFFFF ;
+    border: none;
+    padding: 16px 12px;
+    font-size: 16px;
+    border-radius: 5px;
+    font-weight: 550px;
+    cursor: pointer;
+    
+    
+}
+
+/* Navbar ends here */
+
+/* and hero starts here */
+.hero-section{
+    background: url(../assets/hero-bg.png);
+    width: 1600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 674px;
+}
+
+.banner-content{
+    width: 600px;
+    flex-direction:column;
+    justify-content: center;
+    
+    margin: 0 auto;
+    height: 100%;
+    
+}
+.banner-content h1{
+    font-size:50px;
+    font-weight: 770px;
+}
+
+.color-white{
+    color:#FFFFFF
+}
+.color-green{
+    color: #30B868;
+}
