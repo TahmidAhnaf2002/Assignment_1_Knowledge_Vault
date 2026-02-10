@@ -21,7 +21,6 @@ nav{
     padding: 0 100px;
     justify-content: space-between;
     align-items: center;
-    
     margin-top: 16px;
 }
 
@@ -48,7 +47,6 @@ nav .navigate-button button{
     border-radius: 5px;
     font-weight: 550px;
     cursor: pointer;
-    
     
     transition: 0.3 ease;
 }
@@ -103,11 +101,9 @@ nav .navigate-button button:hover{
     border-radius: 20px;
     margin:0 auto 0 150px;
     color: #30B868;
-
     font-size:16px;
     text-align:center;
     display:flex;
-
     justify-content: center;
     gap: 5px;
 
@@ -160,7 +156,6 @@ nav .navigate-button button:hover{
     font-size: 16px;
     gap: 8px;
 
-
     border-radius: 5px;
     border: none;
     cursor: pointer;
@@ -180,21 +175,16 @@ nav .navigate-button button:hover{
 .button-transparent{
     background-color: transparent;
     color: #FFFFFF;
-
-
+    
     border: 2px solid #FFFFFF;  
     padding: 14px 24px;
     font-size: 16px;
-
     border-radius: 5px;
     cursor: pointer;
-
-
     display: flex;
 
     align-items: center;
     gap: 8px;
-
     transition: 0.3s ease;
 
 
@@ -333,7 +323,6 @@ nav .navigate-button button:hover{
     width: 18px;
     height: 18px;
     background-image: url('../assets/CheckCircle.png');
-    
     background-repeat: no-repeat;
 }
 
@@ -354,7 +343,6 @@ nav .navigate-button button:hover{
 .think-clearly p{
     font-size: 16px;
     color: #627382;
-
     max-width: 600px;
     margin-left: 450px;
     
@@ -365,17 +353,14 @@ nav .navigate-button button:hover{
 .early-access button{
     background-color: #30B868;
     color: #FFFFFF;
-    
     border: none;
     padding: 14px 20px;
     font-size: 16px;
     border-radius: 4px;
-    
     cursor: pointer;
     display: inline-flex;
     align-items: center;
     gap: 8px;
-
     transition:0.3s ease;
 }
 .early-access button:hover{
@@ -421,10 +406,8 @@ nav .navigate-button button:hover{
 
 .social-link i{
     color: #FFFFFF;
-
     margin-right:12px;
     cursor: pointer;
-
     transition: color 0.3s ease;
 }
 
