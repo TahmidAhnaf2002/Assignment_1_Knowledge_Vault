@@ -71,7 +71,12 @@ nav .navigate-button button{
     height: 100%;
 
     
+
+    
 }
+
+
+
 .banner-content h1{
     font-size:50px;
     font-weight: 770px;
@@ -99,6 +104,12 @@ nav .navigate-button button{
 
     justify-content: center;
     gap: 5px;
+
+    transition: 0.3s ease;
+}
+
+.banner-content .badge:hover{
+    transform: scale(1.1);
 }
 
 .banner-content .badge img{
@@ -142,27 +153,50 @@ nav .navigate-button button{
     color: #FFFFFF;
     font-size: 16px;
     gap: 8px;
+
+
     border-radius: 5px;
     border: none;
     cursor: pointer;
     display: flex;
+
     align-items: center;
     padding: 14px 24px;
+
+    transition:  0.3s ease;
+
+}
+
+.button-green:hover{
+    transform: scale(1.1);
 }
 
 .button-transparent{
     background-color: transparent;
     color: #FFFFFF;
+
+
     border: 2px solid #FFFFFF;  
     padding: 14px 24px;
     font-size: 16px;
+
     border-radius: 5px;
     cursor: pointer;
+
+
     display: flex;
+
     align-items: center;
     gap: 8px;
+
+    transition: 0.3s ease;
+
+
 }
 
+.button-transparent:hover{
+    transform: scale(1.1);
+}
 
 .button-group button img{
     width: 18px;
@@ -337,8 +371,76 @@ nav .navigate-button button{
     display: inline-flex;
     align-items: center;
     gap: 8px;
+
+    transition:0.3s ease;
+}
+.early-access button:hover{
+    transform: scale(1.1);
 }
 
 .early p{
     color: #627382;
 }
+
+.pic-social-link .copyright p{
+    text-align: center;
+    color: #627382;
+}
+
+/*  */
+
+.copyright-container{
+    background-color: #001931;
+    padding: 60px 90px 40px;
+}
+
+.pic-social-link{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 40px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+.social-link{
+    text-align: right;
+    
+}
+
+.social-link p{
+    color: #FFFFFF;
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+
+.social-link i{
+    color: #FFFFFF;
+
+    margin-right:12px;
+    cursor: pointer;
+
+    transition: color 0.3s ease;
+}
+
+.social-link i:hover{
+    transform: scale(1.5);
+}
+.copyright{
+    text-align: center;
+    width: 100%;  
+    margin-top: 30px;  
+    order: 3;  
+}
+
+.copyright p{
+    color: #94A3B8;
+    font-size: 14px;
+}
+
+.pic img{
+    height: 40px;
+}
+
+
