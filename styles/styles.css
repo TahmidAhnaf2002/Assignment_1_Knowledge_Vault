@@ -336,11 +336,11 @@ nav .navigate-button button:hover{
     
     background-repeat: no-repeat;
 }
-/* think part starts here */
+
 .think-container{
     background-color: #F7F6F2;
     text-align: center;
-    /* padding: 80px 100px; */
+    
 
 }
 
@@ -348,7 +348,7 @@ nav .navigate-button button:hover{
 .think-clearly h2{
     font-size: 40;
     color: #001931;
-    /* margin-bottom: 16px; */
+    
 }
 
 .think-clearly p{
@@ -360,9 +360,7 @@ nav .navigate-button button:hover{
     
 }
 
-/* .early-access{
-    margin-bottom: 16px;
-} */
+
 
 .early-access button{
     background-color: #30B868;
@@ -393,7 +391,7 @@ nav .navigate-button button:hover{
     color: #627382;
 }
 
-/*  */
+
 
 .copyright-container{
     background-color: #001931;
