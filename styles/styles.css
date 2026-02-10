@@ -110,11 +110,7 @@ nav .navigate-button button{
 
 }
 
-/* .banner-content p{
-    color: #FFFFFF;
-    text-align: center;
-    
-} */
+
 
 .banner-content p{
     color: #FFFFFF;
@@ -171,4 +167,132 @@ nav .navigate-button button{
 .button-group button img{
     width: 18px;
     height: 18px;
+}
+
+/* hero section ends here */
+
+/* notes-container starts here */
+
+
+.notes-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px 40px;
+}
+
+
+ .notes-card-text{
+    text-align: center;
+}
+
+.notes-card-text h3{
+    font-size: 48px;
+}
+
+.notes-card-text p{
+    color: #627382;
+    font-size: 16px;
+    margin-top: 16px;
+}
+
+.notes .image{
+    width: 60px;
+    height: 60px;
+    background-color: #F95555;
+    display: flex;
+    border-radius: 100px;
+
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
+
+.notes .image img{
+    width: 32px;
+    height: 32px;
+    
+}
+
+.notes-content h5{
+    font-size: 24px;
+    color: #001931;
+    margin-bottom: 16px;
+    font-weight: 600px;
+}
+
+
+.notes-content p{
+    font-size:16px ;
+    color:#627382 ;
+    line-height: 1.6;
+}
+
+.notes{
+    background-color: #FFFFFF;
+    padding: 30px 2px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    max-width: 280px;
+}
+
+.notes-card{
+    display: flex;
+    gap: 24px;  
+    justify-content: center;  
+}
+
+.solution-image img{
+    width: 500px;
+    height: 500px;
+}
+
+.solution-container{
+    display: flex;
+    background-color:#F9FAFB ;
+    align-items: center;
+
+    padding: 100px 200px;
+    gap: 60px;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+
+
+.The_solution h1{
+    font-size: 48px;
+    color: #001931;
+    font-weight: 700;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+
+.Second_brain_sol p{
+    font-size: 16px;
+    color: #627382;
+    line-height: 1.7;
+    margin-bottom: 32px;
+}
+
+.bullet_points_sol p{
+    font-size: 16px;
+    color: #001931;
+    margin-bottom: 16px;
+    padding-left: 32px;
+    position: relative;
+}
+
+.bullet_points_sol p::before{
+    content: "";
+    position: absolute;
+    left:0%;
+    width: 18px;
+    height: 18px;
+    background-image: url('../assets/CheckCircle.png');
+    
+    background-repeat: no-repeat;
 }
