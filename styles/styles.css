@@ -30,6 +30,8 @@ nav .menu{
     list-style: none;
     gap: 32px;
 }
+
+
 .menu a{
     color:#000000;
     text-decoration: none;
@@ -48,8 +50,12 @@ nav .navigate-button button{
     cursor: pointer;
     
     
+    transition: 0.3 ease;
 }
 
+nav .navigate-button button:hover{
+    transform: scale(1.1);
+}
 /* Navbar ends here */
 
 /* and hero starts here */
