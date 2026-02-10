@@ -137,7 +137,7 @@ nav .navigate-button button{
     
 }
 
-.button-group .button-green{
+.button-green{
     background-color: #30B868;
     color: #FFFFFF;
     font-size: 16px;
@@ -295,4 +295,50 @@ nav .navigate-button button{
     background-image: url('../assets/CheckCircle.png');
     
     background-repeat: no-repeat;
+}
+/* think part starts here */
+.think-container{
+    background-color: #F7F6F2;
+    text-align: center;
+    /* padding: 80px 100px; */
+
+}
+
+
+.think-clearly h2{
+    font-size: 40;
+    color: #001931;
+    /* margin-bottom: 16px; */
+}
+
+.think-clearly p{
+    font-size: 16px;
+    color: #627382;
+
+    max-width: 600px;
+    margin-left: 450px;
+    
+}
+
+/* .early-access{
+    margin-bottom: 16px;
+} */
+
+.early-access button{
+    background-color: #30B868;
+    color: #FFFFFF;
+    
+    border: none;
+    padding: 14px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.early p{
+    color: #627382;
 }
